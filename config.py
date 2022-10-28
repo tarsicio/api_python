@@ -4,7 +4,7 @@ class Config:
 class DevelopmentConfing(Config):
     DEBUG = True
     #SQLALCHEMY_DATABASE_URI ='postgresql://localhost/api'
-    SQLALCHEMY_DATABASE_URI ='postgresql://postgres:Panama.*@localhost:5432/api'
+    SQLALCHEMY_DATABASE_URI ='postgresql://postgres:Passwword@localhost:5432/api'
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
