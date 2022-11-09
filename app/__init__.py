@@ -7,8 +7,8 @@ from .views import api_v1
 
 app = Flask(__name__)
 
-def create_app(environment):
-	app.config.from_object(environment)
+def create_app(enviroment):
+	app.config.from_object(enviroment)
 	# este nos permite registrar todas nuestras URL
 	app.register_blueprint(api_v1)
 
