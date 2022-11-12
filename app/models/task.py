@@ -21,6 +21,14 @@ class Task(db.Model):
 			return True
 		except:	
 			return False
+
+	def delete(self):
+		try:
+			db.session.delete(self)
+			db.session.commit()
+			return True
+		except:	
+			return False
 			
 	def __str__(self):
 		return self.title

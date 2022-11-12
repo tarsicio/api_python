@@ -2,3 +2,7 @@ curl -i -H  "Content-type: application/json" -X POST -d '{"title": "Nueva Tarea 
 
 
 curl -d {"title": "Nueva Tarea Tarsicio carriales", "description": "Esto esta quedando del carajo ok","deadline":"2022-11-9"} --header "Content-Type: application/json" http://127.0.0.1:5000/api/v1/tasks
+
+
+
+curl -i -H  "Content-type: application/json" -X PUT -d '{"title": "Tienes un nuevo empleo Tarsicio carrizales de 7.500,00 US$, AMEM"}' http://127.0.0.1:5000/api/v1/tasks/3
